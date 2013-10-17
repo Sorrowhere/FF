@@ -1,0 +1,153 @@
+@import url("common.css");
+@import url("jquery.fancybox-1.3.4.css");
+/*@Desciption:ff style*/
+/*@Author:Liu-yao*/
+/*@Date:2013/5/18*/
+.header {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 15px #999 inset;
+}
+
+h1 {
+  font-size: 90px;
+}
+h1 a {
+  color: #bc1c48;
+}
+h1 a:hover {
+  color: #bc1c48;
+  opacity: 1;
+}
+
+h3 {
+  font-size: 40px;
+  color: #ba141a;
+}
+h3 strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/*menu syle*/
+.menu {
+  margin-top: 30px;
+}
+.menu a {
+  display: inline-block;
+  width: 120px;
+  padding: 10px;
+  font: bold 16px/1.5 "microsoft yahei", simson;
+  text-align: center;
+  color: #fff;
+}
+.menu a:hover {
+  outline: 3px #225a68 solid;
+}
+.menu .menu-item-1 {
+  background: #0072bc;
+}
+.menu .menu-item-2 {
+  background: #cd4900;
+}
+.menu .menu-item-3 {
+  background: #008641;
+}
+.menu .menu-item-4 {
+  background: #bc1c48;
+}
+.menu .menu-item-5 {
+  background: #662d91;
+}
+
+/******************************tab style*************************************/
+.ui-wrapper {
+  margin-top: 20px;
+}
+
+.ui-tab th, .ui-tab td {
+  padding: 4px 5px;
+}
+.ui-tab thead {
+  border-bottom: 1px solid #ddd;
+}
+.ui-tab th {
+  font: bold 14px "microsoft yahei",simson;
+}
+.ui-tab td {
+  color: #666;
+  vertical-align: top;
+}
+.ui-tab .img {
+  margin: 0 3px;
+}
+.ui-tab .txt {
+  padding: 2px 3px;
+  width: 90px;
+}
+
+.ui-tab-add th {
+  color: #24a0da;
+}
+
+.ui-tab-fix th {
+  color: #cd4900;
+}
+
+.ui-tab-over th {
+  color: #008641;
+}
+
+.ui-tab-rej th {
+  color: #bc1c48;
+}
+
+#batch .uitab {
+  width: 1200px;
+}
+
+/******************************form style*************************************/
+.ui-form {
+  margin-top: 30px;
+}
+.ui-form em {
+  color: red;
+}
+.ui-form .item {
+  margin-bottom: 10px;
+}
+.ui-form .item .caption {
+  width: 70px;
+  text-align: right;
+  display: inline-block;
+  margin-right: 5px;
+  color: #666;
+}
+.ui-form .item-op {
+  margin: 50px 0 20px 80px;
+}
+
+.ui-form-box {
+  width: 512px;
+  margin-top: 14px;
+  padding: 20px 30px 10px;
+  background: #fff;
+  position: relative;
+}
+.ui-form-box .caption {
+  margin-bottom: 10px;
+}
+.ui-form-box .item-op {
+  margin: 20px  0;
+}
+
+.ui-form-fix {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.ui-form-fix .item-op {
+  margin-left: 84px;
+  margin-top: 10px;
+}

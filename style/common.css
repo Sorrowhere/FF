@@ -1,0 +1,231 @@
+@import url("base.css");
+/*@Desciption:common style*/
+/*@Author:Liu-yao*/
+/*@Date:2013/5/18*/
+body {
+  background: #f1f1f1;
+  font: normal 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif, "microsoft yahei", simson;
+  color: #333;
+  -webkit-text-size-adjust: none;
+  /*解决谷歌小于12px字体*/
+}
+
+a {
+  color: #0055bb;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+a:hover {
+  color: #cc0033;
+  opacity: 0.85;
+}
+
+::selection {
+  color: #fff;
+  color: rgba(255, 255, 255, 0.85);
+  background: #cee3f2;
+}
+
+/*width*/
+.w-full {
+  width: 100%;
+}
+
+.w-common {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.w1 {
+  width: 30px;
+}
+
+.w2 {
+  width: 60px;
+}
+
+.w3 {
+  width: 120px;
+}
+
+.w4 {
+  width: 150px;
+}
+
+.w5 {
+  width: 220px;
+}
+
+.w6 {
+  width: 360px;
+}
+
+/*margin & padding*/
+.mt5 {
+  margin-top: 5px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pb10 {
+  padding-bottom: 10px;
+}
+
+.ptb {
+  padding: 10px 0;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.plr {
+  padding: 0 10px;
+}
+
+/*color*/
+.orange {
+  color: #f60;
+}
+
+.dGray {
+  color: #333;
+}
+
+.mGray {
+  color: #666;
+}
+
+.sGray {
+  color: #999;
+}
+
+/*font*/
+.f14 {
+  font: normal 14px simson;
+}
+
+.f16 {
+  font: normal 16px simson;
+}
+
+.f16yh {
+  font: normal 16px "microsoft yahei",simson;
+}
+
+.f18 {
+  font: normal 18px "microsoft yahei",simson;
+}
+
+.f20 {
+  font: normal 20px "microsoft yahei",simson;
+}
+
+.f22 {
+  font: bold 22px "microsoft yahei",simson;
+}
+
+.f24 {
+  font: normal 24px "microsoft yahei",simson;
+}
+
+.fb {
+  font-weight: bold;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+/*fuc*/
+.text {
+  vertical-align: middle;
+}
+
+.txt-over {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.txt, select, textarea {
+  border: 1px solid #ccc;
+  padding: 5px 3px;
+  margin: 0;
+}
+
+.hide {
+  display: none;
+}
+
+/**************************btn style******************************/
+/*@Desciption:btn style*/
+/*@Author:Liu-yao*/
+/*@Date:2013/5/13*/
+.btn {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 5px 20px;
+  color: #fff;
+  font: bold 14px/1.5 "microsoft yahei", simson;
+}
+
+.btn:hover {
+  color: #fff;
+  outline: 2px #225a68 solid;
+}
+
+.btn-submit {
+  background: #ffc40d;
+}
+
+.btn-rej, .btn-cancel {
+  background: #bc1c48;
+}
+
+.btn-add {
+  background: #01a31c;
+}
+
+/**************************arrow style******************************/
+/*@Desciption:arrow style*/
+/*@Author:Liu-yao*/
+/*@Date:2013/5/13*/
+.arrow {
+  height: 0;
+  width: 0;
+  border-style: solid;
+}
