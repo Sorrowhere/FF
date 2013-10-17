@@ -1,0 +1,4 @@
+# Scss
+.sass-cache/
+*.rb
+*_log.txt
